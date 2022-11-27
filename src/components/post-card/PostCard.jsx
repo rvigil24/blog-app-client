@@ -7,7 +7,7 @@ export const PostCard = ({ post }) => {
       <Link to={`/post/${post.id}`}>
         <img
           className="card-img-top"
-          src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg"
+          src={post.photo}
           alt="..."
         />
       </Link>
